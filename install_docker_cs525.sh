@@ -14,4 +14,7 @@ sudo curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
 sudo python get-pip.py
 sudo pip install docker-py
 sudo yum install -y nc
+
+sudo cp /home/beitong2/.ssh/authorized_keys /root/.ssh/
+
 newgrp docker 
