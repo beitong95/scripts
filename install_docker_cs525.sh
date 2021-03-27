@@ -12,3 +12,7 @@ sudo systemctl start docker
 sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
+
+curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
+python get-pip.py
+pip install docker
